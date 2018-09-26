@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <style media="screen">
+
+    *{
+        margin: 0px;
+        padding: 0px;
+
+    }
+
+    </style>
+  </head>
+  <body>
+
+    <div class="hal">
+           <h1>GAME PUZZEL</h1><br><br>
+        <div id="cen">
+          <img onclick="ubah3()" src="images/koa_4.gif" id="gambar3">
+          <img onclick="ubah0()" src="images/koa_1.gif" id="gambar0"><br>
+          <img onclick="ubah2()" src="images/koa_3.gif" id="gambar2">
+          <img onclick="ubah1()" src="images/koa_2.gif" id="gambar1"> <br> <br>
+          <a href="index2.html"><h2>selanjutnya</h2></a>
+
+        </div>
+    </div>
+
+
+
+
+<script>
+
+var nomor = 0;
+
+let  ubah0 = () => {
+
+  nomor = nomor +1 ;
+    if(nomor > 4 ) {
+      nomor = 1;
+    }
+   var lokasi = 'images/koa_' + nomor + '.gif';
+   document.getElementById('gambar0').src = lokasi;
+
+}
+
+
+let  ubah1 = () => {
+
+  nomor = nomor +1 ;
+    if(nomor > 4 ) {
+      nomor = 1;
+    }
+   var lokasi = 'images/koa_' + nomor + '.gif';
+   document.getElementById('gambar1').src = lokasi;
+
+}
+
+let  ubah2 = () => {
+
+  nomor = nomor +1 ;
+    if(nomor > 4 ) {
+      nomor = 1;
+    }
+   var lokasi = 'images/koa_' + nomor + '.gif';
+   document.getElementById('gambar2').src = lokasi;
+
+}
+
+let ubah3 = () => {
+
+  nomor = nomor +1 ;
+    if(nomor > 4 ) {
+      nomor = 1;
+    }
+    var lokasi = 'images/koa_' + nomor + '.gif';
+   document.getElementById('gambar3').src = lokasi;
+
+}
+
+l
+
+
+
+
+</script>
+
+
+  </body>
+</html>

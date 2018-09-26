@@ -1,0 +1,33 @@
+
+body {
+  background: black;
+}
+
+h1 {
+  display: inline-block;
+  color: green;
+}
+.hal {
+background: white;
+width: 800px;
+height: 800px;
+margin: 0 auto;
+    }
+
+#cen {
+  margin-left: 30%;
+  margin-top: 5%;
+
+}
+
+h2 {
+  display: inline;
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+
+}
